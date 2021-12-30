@@ -39,3 +39,14 @@ font-size: 25px;
 padding: 16px;
 margin: 10px;
 color: darkblue;}
+footer{height: 4rem;
+background-color: rgb(51, 51, 233);
+margin-top: -26px;
+display: flex;
+justify-content: center;
+}
+.final{
+    display: inline-block;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
