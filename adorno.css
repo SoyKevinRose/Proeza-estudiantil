@@ -1,0 +1,19 @@
+.seccion{
+    background-color: rgb(55, 169, 223);
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+main{
+    display: flex;
+
+}
+.lado{background-color: blanchedalmond;
+display: flex;
+flex-direction:column;
+align-items: center;
+width: 35rem;
+border: 1px solid #000;}
