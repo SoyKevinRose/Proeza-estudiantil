@@ -17,3 +17,25 @@ flex-direction:column;
 align-items: center;
 width: 35rem;
 border: 1px solid #000;}
+header{
+    background-color: rgb(235, 127, 113);
+    height: 4rem;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+}
+nav{
+    
+    
+    flex-wrap: wrap;
+display: flex;
+justify-content: flex-end;
+}
+.a{text-decoration: none;
+font-size: 25px;
+padding: 16px;
+margin: 10px;
+color: darkblue;}
