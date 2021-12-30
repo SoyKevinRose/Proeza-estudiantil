@@ -17,3 +17,14 @@ flex-direction:column;
 align-items: center;
 width: 35rem;
 border: 1px solid #000;}
+footer{height: 4rem;
+background-color: rgb(51, 51, 233);
+margin-top: -26px;
+display: flex;
+justify-content: center;
+}
+.final{
+    display: inline-block;
+    color: cornsilk;
+    font-family: 'Courier New', Courier, monospace;
+}
