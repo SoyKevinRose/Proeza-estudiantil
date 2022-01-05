@@ -17,6 +17,12 @@ def saludo(nombre):
 
 nombre=input('cual es su nombre')
 saludo(nombre)
+
+def funcion(num):
+    print('su cambio es ',num)
+funcion(4)
+
+
     
     
 
