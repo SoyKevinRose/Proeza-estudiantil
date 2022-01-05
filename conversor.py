@@ -18,9 +18,13 @@ def saludo(nombre):
 nombre=input('cual es su nombre')
 saludo(nombre)
 
-def funcion(num):
-    print('su cambio es ',num)
-funcion(4)
+def fucn(num):
+    cambio=int(num)
+    if num>0:
+        print('muy bien')
+    else:
+        print('muy mal')
+fucn(3)
 
 
     
