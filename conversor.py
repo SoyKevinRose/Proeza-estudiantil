@@ -1,30 +1,34 @@
-# print('Bienvenido al sistema de conversión nacional en Colombia')
-# opcion=float(input('ingrese la moneda que usara, 1 pesos, 2 dolares'))
-# if (opcion!=1 and opcion!=2):
-#     print('La opción seleccionada no es válida, por favor intente nuevamente')
-# elif(opcion==1):
-#     pesos = float(input('Ingrese la cantidad de pesos'))
-#     dolar = 4080
-#     dolar= pesos /dolar
-#     dolar =round(dolar, 2)
-#     print('Usted tiene: $ ', dolar,' dolares')
-# elif(opcion==2):
-#     dolares = float(input('Ingrese la cantidad de dolares'))
-#     dolares=round(4080*dolares,2)
-#     print('Usted tiene: ',dolares,' pesos')
-def saludo(nombre):
-    print('hola ',nombre, ' es un gusto conocerle')
+def conversor(tipo_moneda,dolar):
+    pesos=float(input('¿Cuántos '+ tipo_moneda +' tiene'))
+    total=dolar/pesos
+    total=round(total,2)
+    print('Usted tiene:',total,' dolar(es)')
 
-nombre=input('cual es su nombre')
-saludo(nombre)
+menu=""""
+Bienvenido al sistema de conversión a dolares.
 
-def fucn(num):
-    cambio=int(num)
-    if num>0:
-        print('muy bien')
-    else:
-        print('muy mal')
-fucn(3)
+////////////////////////////////////////// 
+
+Diseñado por: Proeza estudiantil S.A
+
+~---~---~---~---~---~---~---~---~---~---~
+
+ seleccione una de la siguientes opciones:
+ 1. Pesos Colombianos
+ 2. Pesos Mexicanos
+ 3. Pesos Chilenos
+
+ ~---~---~---~---~---~---~---~---~---~---~
+"""
+opcion=input(menu)
+if opcion=='1':
+    conversor('pesos Colombianos',4080)
+elif opcion=='2':
+    conversor('pesos Mexicano',20)
+elif opcion=='3':
+    conversor('pesos Chilenos',837)
+else:
+    print('ingrese una opción válida')
 
 
     
