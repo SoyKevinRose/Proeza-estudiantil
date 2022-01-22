@@ -1,6 +1,6 @@
 def conversor(tipo_moneda,dolar):
     pesos=float(input('¿Cuántos '+ tipo_moneda +' tiene'))
-    total=dolar/pesos
+    total=pesos/dolar
     total=round(total,2)
     print('Usted tiene:',total,' dolar(es)')
 
